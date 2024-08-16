@@ -177,7 +177,7 @@ a:focus {
 .navbar .navbar-brand {
     margin: 0;
     color: #ffffff;
-    font-size: 45px;
+    font-size: 25px;
     line-height: 0px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1907,7 +1907,7 @@ a:focus {
 
 .footer .container-fluid {
     padding: 90px 0 0 0;
-    background: linear-gradient(rgba(52, 49, 72, .9), rgba(52, 49, 72, .9)), url(../img/footer-bg.png);
+    background: linear-gradient(rgba(52, 49, 72, .9), rgba(52, 49, 72, .9)), url(../img/favicon.ico);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;

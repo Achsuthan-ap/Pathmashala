@@ -1,8 +1,8 @@
 $(function () {
-
     $("#contactForm input, #contactForm textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function ($form, event, errors) {
+            // Handle any errors during submission
         },
         submitSuccess: function ($form, event) {
             event.preventDefault();
@@ -15,7 +15,7 @@ $(function () {
             $this.prop("disabled", true);
 
             $.ajax({
-                url: "contact.php",
+                url: "mail/contact-us.php",
                 type: "POST",
                 data: {
                     name: name,

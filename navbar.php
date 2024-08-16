@@ -32,7 +32,11 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
     <div class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container-fluid">
-            <a href="index.html" class="navbar-brand">Y<span>oo</span>ga</a>
+            <a href="index.html" class="navbar-brand">
+                <img src="img/favicon.ico" alt="">
+                Pathmashalaa
+                
+            </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
