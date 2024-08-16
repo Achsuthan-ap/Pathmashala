@@ -1,6 +1,6 @@
 <?php 
     include 'header.html'; 
-    include 'navbar.html'; 
+    include 'navbar.php'; 
 ?>
         <!-- Page Header Start -->
         <div class="page-header">
