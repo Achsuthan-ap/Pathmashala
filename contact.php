@@ -48,7 +48,7 @@
                             <i class="far fa-envelope"></i>
                             <div class="contact-text">
                                 <h2>Email</h2>
-                                <p>pathmashalaa@gmail.com</p>
+                                <p>pathmashala@gmail.com</p>
                             </div>
                         </div>
                     </div>

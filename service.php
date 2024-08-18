@@ -10,11 +10,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2>Service</h2>
+                        <h2>Offerings</h2>
                     </div>
                     <div class="col-12">
                         <a href="">Home</a>
-                        <a href="">Service</a>
+                        <a href="">Offerings</a>
                     </div>
                 </div>
             </div>

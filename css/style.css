@@ -13,7 +13,7 @@ h3,
 h4,
 h5, 
 h6 {
-    color: #2D2944;
+    color: #a91928;
 }
 
 a {
@@ -24,7 +24,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #FDC98D;
+    color: #fae7e0;
     outline: none;
     text-decoration: none;
 }
@@ -41,7 +41,7 @@ a:focus {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #FDC98D;
+    background: #fae7e0;
     width: 44px;
     height: 44px;
     text-align: center;
@@ -54,15 +54,15 @@ a:focus {
 }
 
 .back-to-top:hover {
-    background: #2D2944;
+    background: #a91928;
 }
 
 .back-to-top:hover i {
-    color: #FDC98D;
+    color: #fae7e0;
 }
 
 .back-to-top i {
-    color: #2D2944;
+    color: #a91928;
     padding-top: 10px;
 }
 
@@ -73,7 +73,7 @@ a:focus {
 .top-bar {
     position: relative;
     height: 35px;
-    background: #2D2944;
+    background: #a91928;
 }
 
 .top-bar .top-bar-left {
@@ -187,7 +187,7 @@ a:focus {
 }
 
 .navbar .navbar-brand span {
-    color: #2D2944;
+    color: #a91928;
     text-transform: lowercase;
     transition: .5s;
 }
@@ -234,7 +234,7 @@ a:focus {
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: #2D2944 !important;
+        background: #a91928 !important;
     }
     
     .navbar a.nav-link {
@@ -248,7 +248,7 @@ a:focus {
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
-        background: #2D2944 !important;
+        background: #a91928 !important;
     }
     
     .navbar .navbar-brand span {
@@ -273,7 +273,7 @@ a:focus {
     width: 100%;
     margin-bottom: 45px;
     padding: 90px 0;
-    background: #FDC98D;
+    background: #fae7e0;
     overflow: hidden;
 }
 
@@ -301,14 +301,14 @@ a:focus {
 }
 
 .hero .hero-text h1 {
-    color: #2D2944;
+    color: #a91928;
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
 .hero .hero-text p {
-    color: #2D2944;
+    color: #a91928;
     font-size: 18px;
     margin-bottom: 25px;
 }
@@ -318,14 +318,14 @@ a:focus {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #FDC98D;
-    background: #2D2944;
+    color: #fae7e0;
+    background: #a91928;
     border-radius: 0;
     transition: .3s;
 }
 
 .hero .hero-btn .btn:hover {
-    color: #2D2944;
+    color: #a91928;
     background: #ffffff;
 }
 
@@ -406,12 +406,12 @@ a:focus {
     margin-bottom: 45px;
     padding: 150px 0 90px 0;
     text-align: center;
-    background: #FDC98D;
+    background: #fae7e0;
 }
 
 .page-header h2 {
     position: relative;
-    color: #2D2944;
+    color: #a91928;
     font-size: 60px;
     font-weight: 700;
 }
@@ -420,7 +420,7 @@ a:focus {
     position: relative;
     padding: 0 12px;
     font-size: 22px;
-    color: #2D2944;
+    color: #a91928;
 }
 
 .page-header a:hover {
@@ -435,7 +435,7 @@ a:focus {
     top: -2px;
     right: -7px;
     text-align: center;
-    color: #2D2944;
+    color: #a91928;
 }
 
 .page-header a:last-child::after {
@@ -481,7 +481,7 @@ a:focus {
     top: 11px;
     right: -30px;
     left: -30px;
-    background: #FDC98D;
+    background: #fae7e0;
     z-index: -1;
 }
 
@@ -536,15 +536,15 @@ a:focus {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #FDC98D;
-    background: #2D2944;
+    color: #fae7e0;
+    background: #a91928;
     border-radius: 0;
     transition: .3s;
 }
 
 .about .about-text a.btn:hover {
-    color: #2D2944;
-    background: #FDC98D;
+    color: #a91928;
+    background: #fae7e0;
 }
 
 @media (max-width: 767.98px) {
@@ -574,11 +574,11 @@ a:focus {
     transition: .3s;
 }
 
-.service .service-item:hover,
+/* .service .service-item:hover,
 .service .service-item.active {
-    background: #2D2944;
+    background: #a91928;
     color: #ffffff;
-}
+} */
 
 .service .service-icon {
     position: relative;
@@ -594,7 +594,7 @@ a:focus {
 .service .service-icon i {
     position: relative;
     font-size: 50px;
-    color: #2D2944;
+    color: #a91928;
     z-index: 3;
 }
 
@@ -608,7 +608,7 @@ a:focus {
     display: block;
     width: 80px;
     height: 80px;
-    background: #FDC98D;
+    background: #fae7e0;
     border-radius: 50%;
     animation: pulse-border 2000ms ease-out infinite;
 }
@@ -623,7 +623,7 @@ a:focus {
     display: block;
     width: 80px;
     height: 80px;
-    background: #FDC98D;
+    background: #fae7e0;
     border-radius: 50%;
     transition: all 200ms;
 }
@@ -646,10 +646,10 @@ a:focus {
     transition: .3s;
 }
 
-.service .service-item:hover h3,
+/* .service .service-item:hover h3,
 .service .service-item.active h3 {
-    color: #FDC98D;
-}
+    color: #fae7e0;
+} */
 
 .service .service-item p {
     margin: 0;
@@ -679,19 +679,19 @@ a:focus {
     display: inline-block;
     margin: 5px;
     padding: 6px 12px;
-    color: #2D2944;
+    color: #a91928;
     font-size: 14px;
     font-weight: 400;
     border-radius: 0;
     background: none;
-    border: 1px solid #2D2944;
+    border: 1px solid #a91928;
     transition: .3s;
 }
 
 .class #class-filter li:hover,
 .class #class-filter li.filter-active {
-    background: #2D2944;
-    color: #FDC98D;
+    background: #a91928;
+    color: #fae7e0;
 }
 
 .class .class-item {
@@ -704,6 +704,7 @@ a:focus {
 .class .class-wrap {
     position: relative;
     width: 100%;
+    height: 100%;
 }
 
 .class .class-img {
@@ -747,7 +748,7 @@ a:focus {
     width: 40px;
     height: 40px;
     border-radius: 40px;
-    background: #FDC98D;
+    background: #fae7e0;
 }
 
 .class .class-teacher h3 {
@@ -768,15 +769,15 @@ a:focus {
     justify-content: center;
     font-size: 30px;
     font-weight: 100;
-    color: #2D2944;
-    background: #FDC98D;
+    color: #a91928;
+    background: #fae7e0;
     border-radius: 40px;
     transition: .3s;
 }
 
 .class .class-wrap:hover .class-teacher a {
-    color: #FDC98D;
-    background: #2D2944;
+    color: #fae7e0;
+    background: #a91928;
 }
 
 .class .class-meta {
@@ -792,7 +793,7 @@ a:focus {
 
 .class .class-meta p i {
     margin-right: 5px;
-    color: #2D2944;
+    color: #a91928;
 }
 
 .class .class-meta p:first-child {
@@ -826,7 +827,7 @@ a:focus {
 }
 
 .discount .section-header p {
-    color: #2D2944;
+    color: #a91928;
     background: transparent;
 }
 
@@ -849,14 +850,14 @@ a:focus {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #FDC98D;
-    background: #2D2944;
+    color: #fae7e0;
+    background: #a91928;
     border-radius: 0;
     transition: .3s;
 }
 
 .discount .discount-text .btn:hover {
-    color: #2D2944;
+    color: #a91928;
     background: #ffffff;
 }
 
@@ -887,13 +888,13 @@ a:focus {
 
 .price .price-header {
     padding: 30px;
-    background: #FDC98D;
-    color: #2D2944;
+    background: #fae7e0;
+    color: #a91928;
 }
 
 .price .price-item.featured-item .price-header {
-    background: #2D2944;
-    color: #FDC98D;
+    background: #a91928;
+    color: #fae7e0;
 }
 
 .price .price-status {
@@ -908,10 +909,10 @@ a:focus {
     right: -30px;
     padding: 7px 10px;
     text-align: center;
-    color: #2D2944;
+    color: #a91928;
     font-size: 14px;
     line-height: 14px;
-    background: #FDC98D;
+    background: #fae7e0;
 }
 
 .price .price-title h2 {
@@ -941,7 +942,7 @@ a:focus {
 }
 
 .price .price-item.featured-item h2 {
-    color: #FDC98D;
+    color: #fae7e0;
 }
 
 .price .price-body {
@@ -973,24 +974,24 @@ a:focus {
 .price .price-action a.btn {
     margin-bottom: 30px;
     padding: 12px 20px;
-    color: #2D2944;
+    color: #a91928;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
     border-radius: 0;
-    background: #FDC98D;
+    background: #fae7e0;
     transition: .3s;
 }
 
 .price .price-action a:hover,
 .price .price-item.featured-item .price-action a {
-    color: #FDC98D;
-    background: #2D2944;
+    color: #fae7e0;
+    background: #a91928;
 }
 
 .price .price-item.featured-item .price-action a:hover {
-    color: #2D2944;
-    background: #FDC98D;
+    color: #a91928;
+    background: #fae7e0;
 }
 
 
@@ -1044,14 +1045,14 @@ a:focus {
     justify-content: center;
     border-radius: 40px;
     font-size: 16px;
-    color: #FDC98D;
-    background: #2D2944;
+    color: #fae7e0;
+    background: #a91928;
     opacity: 0;
 }
 
 .team .team-social a:hover {
-    color: #2D2944;
-    background: #FDC98D;
+    color: #a91928;
+    background: #fae7e0;
 }
 
 
@@ -1165,11 +1166,11 @@ a:focus {
 }
 
 .testimonial .owl-item.center .testimonial-text {
-    background: #2D2944;
+    background: #a91928;
 }
 
 .testimonial .owl-item.center .testimonial-text h3 {
-    color: #FDC98D;
+    color: #fae7e0;
 }
 
 .testimonial .owl-item.center .testimonial-text p,
@@ -1188,11 +1189,11 @@ a:focus {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: #FDC98D;
+    background: #fae7e0;
 }
 
 .testimonial .owl-dot.active {
-    background: #2D2944;
+    background: #a91928;
 }
 
 
@@ -1252,7 +1253,7 @@ a:focus {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #2D2944;
+    color: #a91928;
     transition: .3s;
 }
 
@@ -1261,7 +1262,7 @@ a:focus {
 }
 
 .blog .blog-item a.btn:hover {
-    color: #FDC98D;
+    color: #fae7e0;
 }
 
 .blog .blog-meta {
@@ -1297,28 +1298,28 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #FDC98D;
-    background: #2D2944;
+    color: #fae7e0;
+    background: #a91928;
     font-size: 22px;
     transition: .3s;
 }
 
 .blog .owl-nav .owl-prev:hover,
 .blog .owl-nav .owl-next:hover {
-    color: #2D2944;
-    background: #FDC98D;
+    color: #a91928;
+    background: #fae7e0;
 }
 
 .blog .pagination .page-link {
-    color: #2D2944;
+    color: #a91928;
     border-radius: 0;
-    border-color: #2D2944;
+    border-color: #a91928;
 }
 
 .blog .pagination .page-link:hover,
 .blog .pagination .page-item.active .page-link {
-    color: #FDC98D;
-    background: #2D2944;
+    color: #fae7e0;
+    background: #a91928;
 }
 
 .blog .pagination .disabled .page-link {
@@ -1347,19 +1348,19 @@ a:focus {
     display: inline-block;
     margin: 5px;
     padding: 6px 12px;
-    color: #2D2944;
+    color: #a91928;
     font-size: 14px;
     font-weight: 400;
     border-radius: 0;
     background: none;
-    border: 1px solid #2D2944;
+    border: 1px solid #a91928;
     transition: .3s;
 }
 
 .portfolio #portfolio-filter li:hover,
 .portfolio #portfolio-filter li.filter-active {
-    background: #2D2944;
-    color: #FDC98D;
+    background: #a91928;
+    color: #fae7e0;
 }
 
 .portfolio .portfolio-item {
@@ -1411,9 +1412,9 @@ a:focus {
     height: 50px;
     padding: 12px 0;
     font-size: 25px;
-    color: #2D2944;
+    color: #a91928;
     margin-bottom: 15px;
-    border: 1px solid #FDC98D;
+    border: 1px solid #fae7e0;
     border-radius: 50px;
 }
 
@@ -1445,15 +1446,15 @@ a:focus {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #FDC98D;
-    background: #2D2944;
+    color: #fae7e0;
+    background: #a91928;
     border-radius: 0;
     transition: .3s;
 }
 
 .contact .contact-form .btn:hover {
-    color: #2D2944;
-    background: #FDC98D;
+    color: #a91928;
+    background: #fae7e0;
 }
 
 .contact .help-block ul {
@@ -1499,8 +1500,8 @@ a:focus {
 }
 
 .single .single-tags a:hover {
-    color: #FDC98D;
-    background: #2D2944;
+    color: #fae7e0;
+    background: #a91928;
 }
 
 .single .single-bio {
@@ -1613,16 +1614,16 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #2D2944;
-    background: #FDC98D;
+    color: #a91928;
+    background: #fae7e0;
     font-size: 16px;
     transition: .3s;
 }
 
 .single .related-slider .owl-nav .owl-prev:hover,
 .single .related-slider .owl-nav .owl-next:hover {
-    color: #FDC98D;
-    background: #2D2944;
+    color: #fae7e0;
+    background: #a91928;
 }
 
 .single .single-comment {
@@ -1679,13 +1680,13 @@ a:focus {
 .single .comment-text .btn {
     padding: 3px 10px;
     font-size: 14px;
-    color: #2D2944;
+    color: #a91928;
     background: #dddddd;
     border-radius: 0;
 }
 
 .single .comment-text .btn:hover {
-    background: #FDC98D;
+    background: #fae7e0;
 }
 
 .single .comment-form {
@@ -1714,13 +1715,13 @@ a:focus {
 
 .single .comment-form .btn {
     padding: 15px 30px;
-    color: #FDC98D;
-    background: #2D2944;
+    color: #fae7e0;
+    background: #a91928;
 }
 
 .single .comment-form .btn:hover {
-    color: #2D2944;
-    background: #FDC98D;
+    color: #a91928;
+    background: #fae7e0;
 }
 
 
@@ -1758,7 +1759,7 @@ a:focus {
     height: 2px;
     bottom: 0;
     left: 0;
-    background: #FDC98D;
+    background: #fae7e0;
 }
 
 .sidebar .sidebar-widget .search-widget {
@@ -1782,7 +1783,7 @@ a:focus {
     height: 40px;
     padding: 0;
     font-size: 25px;
-    color: #FDC98D;
+    color: #fae7e0;
     background: none;
     border-radius: 0;
     border: none;
@@ -1790,7 +1791,7 @@ a:focus {
 }
 
 .sidebar .search-widget .btn:hover {
-    color: #2D2944;
+    color: #a91928;
 }
 
 .sidebar .sidebar-widget .recent-post {
@@ -1802,15 +1803,15 @@ a:focus {
 }
 
 .sidebar .tab-post .nav.nav-pills .nav-link {
-    color: #FDC98D;
-    background: #2D2944;
+    color: #fae7e0;
+    background: #a91928;
     border-radius: 0;
 }
 
 .sidebar .tab-post .nav.nav-pills .nav-link:hover,
 .sidebar .tab-post .nav.nav-pills .nav-link.active {
-    color: #2D2944;
-    background: #FDC98D;
+    color: #a91928;
+    background: #fae7e0;
 }
 
 .sidebar .tab-post .tab-content {
@@ -1850,7 +1851,7 @@ a:focus {
     content: '\f105';
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
-    color: #FDC98D;
+    color: #fae7e0;
     left: 1px;
 }
 
@@ -1875,8 +1876,8 @@ a:focus {
 }
 
 .single .tag-widget a:hover {
-    color: #FDC98D;
-    background: #2D2944;
+    color: #fae7e0;
+    background: #a91928;
 }
 
 .sidebar .image-widget {
@@ -1921,7 +1922,7 @@ a:focus {
 
 .footer .footer-info .footer-logo {
     display: inline-block;
-    color: #FDC98D;
+    color: #fae7e0;
     font-size: 60px;
     line-height: 60px;
     font-weight: 700;
@@ -1982,7 +1983,7 @@ a:focus {
 }
 
 .footer .footer-social a:hover i {
-    color: #FDC98D;
+    color: #fae7e0;
 }
 
 .footer .copyright {
@@ -2011,7 +2012,7 @@ a:focus {
 }
 
 .footer .copyright p a:hover {
-    color: #FDC98D;
+    color: #fae7e0;
 }
 
 @media (max-width: 767.98px) {

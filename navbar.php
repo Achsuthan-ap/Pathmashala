@@ -16,7 +16,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <!-- <div class="col-md-4">
                     <div class="top-bar-right">
                         <div class="social">
                             <a href=""><i class="fab fa-twitter"></i></a>
@@ -25,17 +25,16 @@ $current_page = basename($_SERVER['PHP_SELF']);
                             <a href=""><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
 
     <div class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container-fluid">
-            <a href="index.html" class="navbar-brand">
+            <a href="index.php" class="navbar-brand">
                 <img src="img/favicon.ico" alt="">
-                Pathmashalaa
-                
+                Pathmashala
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -44,8 +43,8 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 <div class="navbar-nav ml-auto">
                     <a href="index.php" class="nav-item nav-link <?php echo $current_page == 'index.php' ? 'active' : ''; ?>">Home</a>
                     <!-- <a href="about.php" class="nav-item nav-link">About</a> -->
-                    <a href="service.php" class="nav-item nav-link <?php echo $current_page == 'service.php' ? 'active' : ''; ?>">Service</a>
-                    <a href="price.php" class="nav-item nav-link <?php echo $current_page == 'price.php' ? 'active' : ''; ?>">Price</a>
+                    <a href="service.php" class="nav-item nav-link <?php echo $current_page == 'service.php' ? 'active' : ''; ?>">Offerings</a>
+                    <!-- <a href="price.php" class="nav-item nav-link <?php echo $current_page == 'price.php' ? 'active' : ''; ?>">Costs</a> -->
                     <a href="class.php" class="nav-item nav-link <?php echo $current_page == 'class.php' ? 'active' : ''; ?>">Class</a>
                     <!-- <a href="team.php" class="nav-item nav-link">Trainer</a> -->
                     <!-- <a href="portfolio.php" class="nav-item nav-link">Pose</a> -->
