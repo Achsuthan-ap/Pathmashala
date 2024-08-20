@@ -13,7 +13,7 @@
                                 First authentic Yoga Studio in the Jaffna Peninsula, catering for enthusiasts keen to learn the art of Yoga in its purest form
                             </p>
                             <div class="hero-btn">
-                                <a class="btn" href="">Join Now</a>
+                                <a class="btn" href="https://forms.gle/8Q1Pc1tAM6tfPa4z6">Join Now</a>
                                 <a class="btn" href="contact.php">Contact Us</a>
                             </div>
                         </div>
